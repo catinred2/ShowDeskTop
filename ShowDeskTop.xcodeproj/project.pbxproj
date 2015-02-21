@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		488F9E371A8F731700F05DDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 488F9E361A8F731700F05DDF /* AppDelegate.m */; };
+		48820E251A987606006C2A6F /* JRLoginItemUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 48820E241A987606006C2A6F /* JRLoginItemUtil.m */; };
+		488F9E371A8F731700F05DDF /* SDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 488F9E361A8F731700F05DDF /* SDAppDelegate.m */; };
 		488F9E391A8F731700F05DDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 488F9E381A8F731700F05DDF /* main.m */; };
-		488F9E3C1A8F731700F05DDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 488F9E3B1A8F731700F05DDF /* ViewController.m */; };
-		488F9E3E1A8F731700F05DDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 488F9E3D1A8F731700F05DDF /* Images.xcassets */; };
 		488F9E411A8F731700F05DDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 488F9E3F1A8F731700F05DDF /* Main.storyboard */; };
 		488F9E4D1A8F731700F05DDF /* ShowDeskTopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 488F9E4C1A8F731700F05DDF /* ShowDeskTopTests.m */; };
+		48DA4E671A9856D60012F3ED /* JRKeyboardShortcutUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DA4E661A9856D60012F3ED /* JRKeyboardShortcutUtil.m */; };
+		48DA4E6B1A986CCC0012F3ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48DA4E6A1A986CCC0012F3ED /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,18 +27,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48820E231A987606006C2A6F /* JRLoginItemUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRLoginItemUtil.h; sourceTree = "<group>"; };
+		48820E241A987606006C2A6F /* JRLoginItemUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRLoginItemUtil.m; sourceTree = "<group>"; };
 		488F9E301A8F731700F05DDF /* ShowDeskTop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowDeskTop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		488F9E341A8F731700F05DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		488F9E351A8F731700F05DDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		488F9E361A8F731700F05DDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		488F9E351A8F731700F05DDF /* SDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDAppDelegate.h; sourceTree = "<group>"; };
+		488F9E361A8F731700F05DDF /* SDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDAppDelegate.m; sourceTree = "<group>"; };
 		488F9E381A8F731700F05DDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		488F9E3A1A8F731700F05DDF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		488F9E3B1A8F731700F05DDF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		488F9E3D1A8F731700F05DDF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		488F9E401A8F731700F05DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		488F9E461A8F731700F05DDF /* ShowDeskTopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowDeskTopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		488F9E4B1A8F731700F05DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		488F9E4C1A8F731700F05DDF /* ShowDeskTopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowDeskTopTests.m; sourceTree = "<group>"; };
+		48DA4E651A9856D60012F3ED /* JRKeyboardShortcutUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRKeyboardShortcutUtil.h; sourceTree = "<group>"; };
+		48DA4E661A9856D60012F3ED /* JRKeyboardShortcutUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRKeyboardShortcutUtil.m; sourceTree = "<group>"; };
+		48DA4E6A1A986CCC0012F3ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../../../../Downloads/StatusThing-master/StatusThing/Images.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,11 +82,13 @@
 		488F9E321A8F731700F05DDF /* ShowDeskTop */ = {
 			isa = PBXGroup;
 			children = (
-				488F9E351A8F731700F05DDF /* AppDelegate.h */,
-				488F9E361A8F731700F05DDF /* AppDelegate.m */,
-				488F9E3A1A8F731700F05DDF /* ViewController.h */,
-				488F9E3B1A8F731700F05DDF /* ViewController.m */,
-				488F9E3D1A8F731700F05DDF /* Images.xcassets */,
+				488F9E351A8F731700F05DDF /* SDAppDelegate.h */,
+				488F9E361A8F731700F05DDF /* SDAppDelegate.m */,
+				48DA4E651A9856D60012F3ED /* JRKeyboardShortcutUtil.h */,
+				48DA4E661A9856D60012F3ED /* JRKeyboardShortcutUtil.m */,
+				48820E231A987606006C2A6F /* JRLoginItemUtil.h */,
+				48820E241A987606006C2A6F /* JRLoginItemUtil.m */,
+				48DA4E6A1A986CCC0012F3ED /* Images.xcassets */,
 				488F9E3F1A8F731700F05DDF /* Main.storyboard */,
 				488F9E331A8F731700F05DDF /* Supporting Files */,
 			);
@@ -196,7 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				488F9E3E1A8F731700F05DDF /* Images.xcassets in Resources */,
+				48DA4E6B1A986CCC0012F3ED /* Images.xcassets in Resources */,
 				488F9E411A8F731700F05DDF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,9 +220,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				488F9E3C1A8F731700F05DDF /* ViewController.m in Sources */,
 				488F9E391A8F731700F05DDF /* main.m in Sources */,
-				488F9E371A8F731700F05DDF /* AppDelegate.m in Sources */,
+				48820E251A987606006C2A6F /* JRLoginItemUtil.m in Sources */,
+				488F9E371A8F731700F05DDF /* SDAppDelegate.m in Sources */,
+				48DA4E671A9856D60012F3ED /* JRKeyboardShortcutUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +410,7 @@
 				488F9E521A8F731700F05DDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		488F9E531A8F731700F05DDF /* Build configuration list for PBXNativeTarget "ShowDeskTopTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +419,7 @@
 				488F9E551A8F731700F05DDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
